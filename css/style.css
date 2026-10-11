@@ -8,6 +8,16 @@ li {
   margin-bottom: 1.5rem;
 }
 
+.answer {
+  display: none;
+  font-style: italic;
+  margin: 0.4rem 0 0 0;
+}
+
+.answer.visible {
+  display: block;
+}
+
 button {
   padding: 0.4rem 1rem;
   cursor: pointer;
